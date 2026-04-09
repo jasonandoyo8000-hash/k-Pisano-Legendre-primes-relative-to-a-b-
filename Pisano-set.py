@@ -1,4 +1,5 @@
-#Pisano set
+#Pisano set from k-Pisano-Legendre primes
+#See https://doi.org/10.62072/acm.2026.09011
 from sympy import legendre_symbol, primerange
 
 def check(p,in1,in2,k):
